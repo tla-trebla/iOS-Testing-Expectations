@@ -25,8 +25,8 @@ class TestingAsyncUsingExpectationsTests: XCTestCase {
                 return
             }
             
-            let posts =  try! JSONDecoder().decode([Post].self, from: data)
-            XCTAssertTrue(posts.count > 0)
+            posts =  try! JSONDecoder().decode([Post].self, from: data)
+            expectation.fulfill()
             
         }.resume()
         
