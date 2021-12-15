@@ -10,14 +10,13 @@ import XCTest
 @testable import TestingAsyncUsingExpectations
 
 class TestingAsyncUsingExpectationsTests: XCTestCase {
-    
-    func test_NoTest() {
-        
-    }
 
     func test_GetAllPosts() {
         
         let url = URL(string: "https://jsonplaceholder.typicode.com/posts")!
+        let expectation = expectation(description: "Posts has been downloaded!")
+        
+        var posts = [Post]()
         
         URLSession.shared.dataTask(with: url) { data, response, error in
             
