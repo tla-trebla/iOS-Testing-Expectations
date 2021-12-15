@@ -30,7 +30,8 @@ class TestingAsyncUsingExpectationsTests: XCTestCase {
             
         }.resume()
         
-        // NO ASSERT
+        wait(for: [expectation], timeout: 2.0)
+        XCTAssertTrue(posts.count > 0)
       
     }
 
