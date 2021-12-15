@@ -14,7 +14,7 @@ class TestingMultipleExpectationsTests: XCTestCase {
     func test_MultipleNotification() {
         
         let alertManager = AlertManager()
-        let exp = expectation(forNotification: Notification.Name.alertNotification, object: Notification, handler: nil)
+        let exp = expectation(forNotification: Notification.Name.alertNotification, object: alertManager, handler: nil)
         
         exp.expectedFulfillmentCount = 2
         
