@@ -10,6 +10,10 @@ import XCTest
 @testable import TestingAsyncUsingExpectations
 
 class TestingAsyncUsingExpectationsTests: XCTestCase {
+    
+    func test_NoTest() {
+        
+    }
 
     func test_GetAllPosts() {
         
