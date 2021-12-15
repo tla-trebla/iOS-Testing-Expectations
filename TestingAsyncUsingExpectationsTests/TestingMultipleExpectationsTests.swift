@@ -19,6 +19,7 @@ class TestingMultipleExpectationsTests: XCTestCase {
         exp.expectedFulfillmentCount = 2
         
         alertManager.postAlert()
+        alertManager.postAlert()
         
         wait(for: [exp], timeout: 2.0)
     }
