@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E749216276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E749215276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift */; };
 		8D9905A22437C97800C8E080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9905A12437C97800C8E080 /* AppDelegate.swift */; };
 		8D9905A42437C97800C8E080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9905A32437C97800C8E080 /* SceneDelegate.swift */; };
 		8D9905A62437C97800C8E080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9905A52437C97800C8E080 /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E749215276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingMultipleExpectationsTests.swift; sourceTree = "<group>"; };
 		8D99059E2437C97800C8E080 /* TestingAsyncUsingExpectations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingAsyncUsingExpectations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9905A12437C97800C8E080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9905A32437C97800C8E080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		8D9905BA2437C99300C8E080 /* TestingAsyncUsingExpectationsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5E749215276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift */,
 				8D9905BB2437C99300C8E080 /* TestingAsyncUsingExpectationsTests.swift */,
 				8D9905BD2437C99300C8E080 /* Info.plist */,
 			);
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9905BC2437C99300C8E080 /* TestingAsyncUsingExpectationsTests.swift in Sources */,
+				5E749216276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
