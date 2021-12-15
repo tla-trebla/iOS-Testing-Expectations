@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E749216276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E749215276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift */; };
+		5E749218276A3B2B0006FBD0 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E749217276A3B2B0006FBD0 /* AlertManager.swift */; };
+		5E74921B276A3E620006FBD0 /* NSNotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74921A276A3E620006FBD0 /* NSNotificationExtension.swift */; };
 		8D9905A22437C97800C8E080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9905A12437C97800C8E080 /* AppDelegate.swift */; };
 		8D9905A42437C97800C8E080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9905A32437C97800C8E080 /* SceneDelegate.swift */; };
 		8D9905A62437C97800C8E080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9905A52437C97800C8E080 /* ContentView.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		5E749215276A3A990006FBD0 /* TestingMultipleExpectationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingMultipleExpectationsTests.swift; sourceTree = "<group>"; };
+		5E749217276A3B2B0006FBD0 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		5E74921A276A3E620006FBD0 /* NSNotificationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationExtension.swift; sourceTree = "<group>"; };
 		8D99059E2437C97800C8E080 /* TestingAsyncUsingExpectations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingAsyncUsingExpectations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9905A12437C97800C8E080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9905A32437C97800C8E080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E749219276A3E520006FBD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E74921A276A3E620006FBD0 /* NSNotificationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8D9905952437C97800C8E080 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +95,7 @@
 		8D9905A02437C97800C8E080 /* TestingAsyncUsingExpectations */ = {
 			isa = PBXGroup;
 			children = (
+				5E749219276A3E520006FBD0 /* Extensions */,
 				8D9905C32437CD0800C8E080 /* Models */,
 				8D9905A12437C97800C8E080 /* AppDelegate.swift */,
 				8D9905A32437C97800C8E080 /* SceneDelegate.swift */,
@@ -91,6 +104,7 @@
 				8D9905AC2437C97C00C8E080 /* LaunchScreen.storyboard */,
 				8D9905AF2437C97C00C8E080 /* Info.plist */,
 				8D9905A92437C97C00C8E080 /* Preview Content */,
+				5E749217276A3B2B0006FBD0 /* AlertManager.swift */,
 			);
 			path = TestingAsyncUsingExpectations;
 			sourceTree = "<group>";
@@ -223,7 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9905A22437C97800C8E080 /* AppDelegate.swift in Sources */,
+				5E74921B276A3E620006FBD0 /* NSNotificationExtension.swift in Sources */,
 				8D9905A42437C97800C8E080 /* SceneDelegate.swift in Sources */,
+				5E749218276A3B2B0006FBD0 /* AlertManager.swift in Sources */,
 				8D9905A62437C97800C8E080 /* ContentView.swift in Sources */,
 				8D9905C52437CD1300C8E080 /* Post.swift in Sources */,
 			);
